@@ -29,12 +29,3 @@ All of these Cvars are also modifiable under the Bakkesmod Plugins tab. Look for
 ## Known Bugs
 No known bugs at this time
 Please report any bugs you find in the issues section or email me at jameskelly0531@gmail.com
-## 1.0.1 Patch notes
-Additions:
-* Added ability to disable plugin without fully disabling it, allowing text fields to remain saved
-* Added ability to entirely skip saving process and save directly to file
-Bug fixes:
-* Fixed fatal crash bug where pasting text to the plugins settings page caused game to crash
-* Fixed bug where only Epic account users were not being tracked when bot tracking was disabled
-* Fixed bug where only Steam IDs of players were saved to stats, leading to Epic account users having their UIDs considered “0”
-* Fixed bug where “Upload Datetime” would post as a strange array of numbers
