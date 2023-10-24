@@ -1,5 +1,5 @@
 # StatsUploaderPlugin Documentation
-Welcome to the StatsUploaderPlugin! Designed and Produced by Jck for the sole purpose of speeding up and securing the stats of a Rocket League match for the Varsity Esports League(VESL) of Stiegler EdTech. The current version is **Version 1.0.1**. If you find a new bug not in the [Known Bugs](##Known-Bugs, "Goto Known-Bugs") list down below, please report it to Jck at jameskelly0531@gmail.com. 
+Welcome to the StatsUploaderPlugin! Designed and Produced by Jck for the sole purpose of speeding up and securing the stats of a Rocket League match for the Varsity Esports League(VESL) of Stiegler EdTech. The current version is **Version 1.0.1**. If you find a new bug not in the [Known Bugs](#Known-Bugs, "Goto Known-Bugs") list down below, please report it to Jck at jameskelly0531@gmail.com. 
 ## Dependencies
 * Rocket League
 * [Bakkesmod](https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/latest/download/BakkesModSetup.zip, "Bakkesmod download link")
