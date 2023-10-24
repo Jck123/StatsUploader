@@ -1,0 +1,6 @@
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/lib/cpprest_2_10d.lib
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/bin/cpprest_2_10d.dll
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/lib/share/cpprestsdk/cpprestsdk-config.cmake
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/lib/share/cpprestsdk/cpprestsdk-config-version.cmake
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/lib/share/cpprestsdk/cpprestsdk-targets.cmake
+C:/Users/JamesCKelly/source/repos/GoogleSheetUploaderPlugin/vcpkg_installed/vcpkg/pkgs/cpprestsdk_x64-windows/debug/lib/share/cpprestsdk/cpprestsdk-targets-debug.cmake

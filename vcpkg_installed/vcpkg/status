@@ -1,0 +1,86 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: da3dcb3854d27d81058371b6c83b6edd4b9ee7986b35691cb5c07900e4fc4744
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6e1093493b60452773946784339074d16d14766d3276da355e23a7a92a9c31eb
+Status: install ok installed
+
+Package: zlib
+Version: 1.2.13
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f17bdfafcf412975fd7e96c0890aafd03d9e953461af9c235daa2dc5638103ea
+Description: A compression library
+Status: install ok installed
+
+Package: brotli
+Version: 1.0.9
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: adea98b92a0a6f82633830d02406bf8e4629182d4fca6553c50a171299e02fdc
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: cpprestsdk
+Version: 2.10.18
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8ae38b918b552ff6943b69bb322a3c7a0d2174d1632273120d883485ca01b482
+Description: C++11 JSON, REST, and OAuth library
+    The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
+Default-Features: default-features
+Status: install ok installed
+
+Package: cpprestsdk
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows
+Multi-Arch: same
+Description: Brotli compression support
+Status: install ok installed
+
+Package: cpprestsdk
+Feature: compression
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: HTTP Compression support
+Status: install ok installed
+
+Package: cpprestsdk
+Feature: default-features
+Architecture: x64-windows
+Multi-Arch: same
+Description: Features installed by default
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2023-03-02
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9d879e81898bfa2d168c0b1885ded20f4a1d3f363beeae950bd48e380541e9fa
+Status: install ok installed
+
+Package: openssl
+Version: 3.1.1
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5ed6f7bdee5536b6e1713c6af140a5cdca859c7a3bc88b6751afa9b650089b5f
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Status: install ok installed
+
